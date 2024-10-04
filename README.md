@@ -67,8 +67,11 @@ sudo docker run hello-world
    sudo groupadd docker 
    ```
    6.2. Agregar el usuario al grupo docker  
-      sudo usermod \-aG docker $USER  
+   ```
+   sudo usermod -aG docker $USER  
+   ```
    6.3. Cerrar terminal y volver a abrirla  
+   
    6.4. Probar   
    ```
    docker run hello-world  
